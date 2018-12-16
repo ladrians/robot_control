@@ -1,0 +1,26 @@
+# inverted
+t_cam_to_body:
+- [0.021]
+- [0.005]
+- [0.0]
+# oposite
+#t_cam_to_body:
+#- [0.0]
+#- [0.0]
+#- [0.0]
+
+dt: 0.05
+min_omega: 0.3
+max_omega: 0.6
+min_vel: 0.3
+max_vel: 0.9
+linear_k: 0.17 # 0.15
+min_linear_vel: 0.25
+rotate_fast_value: 5.8 # rad/s
+k: 0.4 # 0.3
+#simulator
+min_lin_x: -0.09
+max_lin_x: 0.09
+#gxbogie
+#min_lin_x: -0.3 # simulator -0.09
+#max_lin_x: -0.1 # simulator  0.09

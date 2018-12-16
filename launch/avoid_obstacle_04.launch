@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf8"?>
+
+<launch>
+  <node pkg="robot_control" type="avoid_obstacle_04.py" name="avoid_obstacle_04" output="screen">
+    <param name="param_path" value="$(find robot_control)/params/params.yaml"/>
+  </node>
+</launch>
